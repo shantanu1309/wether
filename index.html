@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Weather Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name..." autocomplete="off">
+        <button onclick="handleSearch()">Search</button>
+    </div>
+
+    <div id="error-msg" class="error">City not found. Please try again.</div>
+
+    <div id="weather-display" class="weather-info">
+        <p class="city-name" id="displayCity">--</p>
+        <div class="temp" id="temperature">--°C</div>
+        
+        <div class="details">
+            <div class="card">
+                <small>Wind</small>
+                <div id="wind">-- km/h</div>
+            </div>
+            <div class="card">
+                <small>Humidity</small>
+                <div id="humidity">--%</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
