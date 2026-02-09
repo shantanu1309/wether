@@ -61,3 +61,5 @@ Weather: https://api.open-meteo.com/v1/forecast
 This project is open-source and available under the MIT License.
 
 #OUTPUT
+
+<img width="1231" height="777" alt="Image" src="https://github.com/user-attachments/assets/caf7a917-da37-4fb9-a9d8-29685bfc09d9" />
